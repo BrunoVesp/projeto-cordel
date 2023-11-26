@@ -42,23 +42,49 @@ header > p {
 .cordel {
     margin: 30px;
     margin-top: 60px;
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-family: 'Sriracha', cursive;
 }
 
 #joaninha {
     padding-top: 15px;
     padding-bottom: 15px;
-    background-image: url('../imagens/background001.jpg');
+    background-image: url("../imagens/background001.jpg");
+    background-position: center right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.321);
 }
-    
+
+#livro {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: url("../imagens/background002.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.321);
+}
 
 article {
     margin: 30px;
-    padding: 5px;
-    width: 35vw;
-    font-size: 3vw;
+    padding: 10px;
+    width: 42vw;
+    font-size: 3.5vw;
     font-family: 'Sriracha', cursive;
     background: rgba(0, 0, 0, 0.504);
     color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+footer > p {
+    padding: 15px;
 }
