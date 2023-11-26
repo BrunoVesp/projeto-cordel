@@ -47,5 +47,18 @@ header > p {
 }
 
 #joaninha {
-    background-image: url('imagens/background001.jpg');
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: url('../imagens/background001.jpg');
+}
+    
+
+article {
+    margin: 30px;
+    padding: 5px;
+    width: 35vw;
+    font-size: 3vw;
+    font-family: 'Sriracha', cursive;
+    background: rgba(0, 0, 0, 0.504);
+    color: white;
 }
