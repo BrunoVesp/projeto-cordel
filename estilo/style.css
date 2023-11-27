@@ -33,6 +33,7 @@ header > h1 {
     padding-top: 50px;
     font-size: 10vw;
     font-family: 'Passion One', sans-serif;
+    font-variant: small-caps;
 }
 
 header > p {
@@ -44,6 +45,7 @@ header > p {
     margin-top: 60px;
     font-size: 3.5vw;
     font-family: 'Sriracha', cursive;
+    line-height: 2em;
 }
 
 #joaninha {
@@ -76,6 +78,7 @@ article {
     font-family: 'Sriracha', cursive;
     background: rgba(0, 0, 0, 0.504);
     color: white;
+    line-height: 2em;
 }
 
 footer {
@@ -83,8 +86,5 @@ footer {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-}
-
-footer > p {
-    padding: 15px;
+    padding: 10px;
 }
